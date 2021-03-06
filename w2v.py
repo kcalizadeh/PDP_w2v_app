@@ -16,9 +16,6 @@ external_stylesheets = [dbc.themes.CERULEAN]
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
-# with open('w2v.pkl', 'rb') as w2v_d:
-#     w2v_dict = pickle.load(w2v_d)
-
 # a useful variable
 source_list = ['plato', 'aristotle', 'capitalism', 'communism',
                 'continental', 'empiricism', 'german_idealism', 
